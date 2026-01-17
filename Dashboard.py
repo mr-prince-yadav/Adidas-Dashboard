@@ -11,9 +11,9 @@ st.set_page_config(layout="wide")
 st.markdown('<style>div.block-container{padding-top:1rem;}',unsafe_allow_html=True)
 image = Image.open("adidas-logo.jpg")
 
-col1,col2=st.columns([0.15,0.85])
+col1,col2=st.columns([0.2,0.8])
 with col1:
-    st.image(image,width=120)
+    st.image(image,width=150)
 
 html_title="""
     <style>
@@ -150,5 +150,6 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
 
 
