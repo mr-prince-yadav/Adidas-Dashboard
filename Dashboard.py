@@ -17,7 +17,7 @@ div.block-container { padding-top: 1rem; }
 
 image = Image.open("adidas-logo.jpg")
 
-col1, col2 = st.columns([0.2, 0.8])
+col1, col2 = st.columns([0.3, 0.7])
 
 with col1:
     st.image("adidas-logo.jpg", height=80)
@@ -152,6 +152,7 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
 
 
 
