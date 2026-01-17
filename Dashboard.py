@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 st.markdown('<style>div.block-container{padding-top:1rem;}',unsafe_allow_html=True)
 
 logo = Image.open("adidas-logo.jpg")
-logo.thumbnail((160, 80))  # prevent cropping
+logo.thumbnail((160, 120))  # prevent cropping
 
 col1, col2 = st.columns([0.15, 0.85])
 with col1:
@@ -143,6 +143,7 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
 
 
 
