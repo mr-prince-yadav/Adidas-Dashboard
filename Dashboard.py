@@ -36,7 +36,7 @@ with col4:
     fig = px.bar(df,x="Retailer",y="TotalSales",labels={"TotalSales":"Total Sales{$}"},
                  title="Total Sales by Retailer",hover_data=["TotalSales"],
                  template="gridon",height=500)
-    st.plotly_chart(fig,use_container_width=True)
+    st.plotly_chart(fig,width="stretch")
 
 _,view1,dwn1,view2,dwn2=st.columns([0.15,0.20,0.20,0.20,0.20])
 with view1:
@@ -53,7 +53,7 @@ result = df.groupby(by=df["Month_Year"])["TotalSales"].sum().reset_index()
 with col5:
     fig1 = px.line(result,x = "Month_Year",y="TotalSales",title="Total Sales Over Time",
                    template="gridon")
-    st.plotly_chart(fig1,use_container_width=True)
+    st.plotly_chart(fig1,width="stretch")
 
 with view2:
     expander=st.expander("Monthly Sales")
@@ -96,7 +96,7 @@ with col6:
     st.plotly_chart(
         fig3,
         config={"responsive":True},
-        use_container_width=True
+        width="stretch"
         )
 
 _, view3, dwn3 = st.columns([0.5,0.45,0.45])
@@ -124,7 +124,7 @@ fig4.update_traces(textinfo="label+value")
 with col7:
     st.subheader(":point_right: Total Sales by Region and City in Treemap")
     st.plotly_chart(fig4,
-                    use_container_width=True,
+                    width="stretch",
                     config={
                         "responsive":True,
                         "displayModeBar":True,
@@ -150,3 +150,4 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
