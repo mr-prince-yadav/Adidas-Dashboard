@@ -18,7 +18,7 @@ with col1:
     st.image(logo)
 
 with col2:
-    st.title("Adidas Interactive Sales Dashboard")
+    st.title("<center><h1>Adidas Interactive Sales Dashboard</h1></center>")
 
 col3,col4,col5=st.columns([0.1,0.45,0.45])
 with col3:
@@ -143,5 +143,6 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
 
 
