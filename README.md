@@ -30,6 +30,7 @@ This application provides a comprehensive view of Adidas sales performance acros
 ├─ `README.md` — Documentation
 
 ```
+
 ---
 
 ## 🛠️ Tech Stack
@@ -47,3 +48,22 @@ This application provides a comprehensive view of Adidas sales performance acros
 ```bash
 git clone https://github.com/mr-prince-yadav/Adidas-Dashboard.git
 cd Adidas-Dashboard
+```
+### 2. InstallDependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the App
+```bash
+streamlit run Dashboard.py
+```
+
+---
+
+## 📌 Use Cases
+- Sales performance analysis 
+- Data visualization portfolio
+- Business intelligence demos
+- Learning Streamlit dashboards
+
+---
