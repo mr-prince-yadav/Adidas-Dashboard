@@ -1,19 +1,48 @@
 # Adidas Sales Dashboard 📊
 
-An interactive Streamlit dashboard for visualizing and analyzing Adidas sales data with dynamic charts and insights.
+An interactive **Streamlit-based analytics dashboard** for visualizing and analyzing Adidas sales data with dynamic charts, KPIs, and business insights. Built for clear performance tracking and data-driven decision-making.
+
+---
 
 ## 🚀 Project Overview
-This application provides a comprehensive look at Adidas sales performance. It allows users to explore data through various lenses, such as regional performance, product popularity, and sales trends over time, helping to identify key business drivers.
+
+This application provides a comprehensive view of Adidas sales performance across **regions, products, and time periods**. It helps identify growth patterns, top-performing products, and key business drivers through an intuitive and responsive interface.
+
+---
+
+## ✨ Key Features
+
+- Interactive sales charts and visualizations  
+- Regional performance analysis  
+- Product-wise sales insights  
+- Time-series trend tracking  
+- KPI summary dashboard  
+- Clean Streamlit UI  
+
+---
 
 ## 📁 Repository Contents
-* `Dashboard.py`: The core Streamlit application script.
-* `Adidas_sales.xlsx`: The dataset containing Adidas sales records.
-* `requirements.txt`: A list of necessary Python packages to run the app.
-* `README.md`: Project documentation and setup instructions.
 
-## 🛠️ How to Run the Project
+├─ `Dashboard.py` — Main Streamlit application
+├─ `Adidas_sales.xlsx` — Sales dataset
+├─ `requirements.txt` — Python dependencies
+├─ `README.md` — Documentation
+
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Streamlit  
+- Pandas, NumPy  
+- Plotly / Streamlit Charts  
+
+---
+
+## ⚙️ How to Run
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/mr-prince-yadav/Adidas-Dashboard.git](https://github.com/mr-prince-yadav/Adidas-Dashboard.git)
+git clone https://github.com/mr-prince-yadav/Adidas-Dashboard.git
 cd Adidas-Dashboard
