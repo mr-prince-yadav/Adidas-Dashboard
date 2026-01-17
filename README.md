@@ -15,5 +15,5 @@ This application provides a comprehensive look at Adidas sales performance. It a
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/mr-amit-yadav/Adidas-streamlit-Dashboard.git](https://github.com/mr-amit-yadav/Adidas-streamlit-Dashboard.git)
-cd Adidas-streamlit-Dashboard
+git clone [https://github.com/mr-prince-yadav/Adidas-Dashboard.git](https://github.com/mr-prince-yadav/Adidas-Dashboard.git)
+cd Adidas-Dashboard
