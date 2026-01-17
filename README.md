@@ -23,12 +23,13 @@ This application provides a comprehensive view of Adidas sales performance acros
 
 ## 📁 Repository Contents
 
+```
 ├─ `Dashboard.py` — Main Streamlit application
 ├─ `Adidas_sales.xlsx` — Sales dataset
 ├─ `requirements.txt` — Python dependencies
 ├─ `README.md` — Documentation
 
-
+```
 ---
 
 ## 🛠️ Tech Stack
