@@ -10,35 +10,16 @@ df=pd.read_excel("Adidas_sales.xlsx")
 st.set_page_config(layout="wide")
 st.markdown('<style>div.block-container{padding-top:1rem;}',unsafe_allow_html=True)
 
-st.markdown("""
-<style>
-.header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px 0;
-}
+image = Image.open("adidas-logo.jpg")
+image.thumbnail((200, 100))   # prevent cropping
 
-.logo {
-    height: 80px;
-}
+col1, col2 = st.columns([0.2, 0.8])
 
-/* Auto-detect system dark mode */
-@media (prefers-color-scheme: dark) {
-    .logo {
-        filter: invert(1) brightness(1.2);
-    }
-}
-</style>
-""", unsafe_allow_html=True)
-st.markdown(
-    '<div class="header"><img src="adidas-logo.jpg" class="logo"></div>',
-    unsafe_allow_html=True
-)
-st.markdown(
-    "<h1 style='text-align:center; font-weight:700;'>Adidas Interactive Sales Dashboard</h1>",
-    unsafe_allow_html=True
-)
+with col1:
+    st.image(image)
+
+with col2:
+    st.title("Adidas Interactive Sales Dashboard")
 
     
 col3,col4,col5=st.columns([0.1,0.45,0.45])
@@ -164,6 +145,7 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
 
 
 
