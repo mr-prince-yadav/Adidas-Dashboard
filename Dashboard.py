@@ -11,36 +11,22 @@ st.set_page_config(layout="wide")
 st.markdown('<style>div.block-container{padding-top:1rem;}',unsafe_allow_html=True)
 image = Image.open("adidas-logo.jpg")
 
-st.markdown("""
-<style>
-/* Header container */
-.header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px 0;
-}
+col1,col2=st.columns([0.1,0.9])
+with col1:
+    st.image(image,width=100)
 
-/* Logo styling */
-.header img {
-    height: 80px;
-}
-
-/* Auto-detect system DARK mode */
-@media (prefers-color-scheme: dark) {
-    .header img {
-        filter: invert(1) brightness(1.2);
-    }
-}
-</style>
-
-<div class="header">
-    <img src="adidas-logo.jpg">
-    <h1>Adidas Interactive Sales Dashboard</h1>
-</div>
-""", unsafe_allow_html=True)
-
-
+html_title="""
+    <style>
+    .title-test {
+     font-weight:bold
+     padding:5px;
+     border-radius:6px
+     }
+     </style>
+     <center><h1 class="title-test">Adidas Interactive Sales Dashboard</h1></center>"""
+with col2:
+    st.markdown(html_title,unsafe_allow_html=True)
+    
 col3,col4,col5=st.columns([0.1,0.45,0.45])
 with col3:
     box_date=str(datetime.datetime.now().strftime("%d %B %Y"))
@@ -164,6 +150,7 @@ with dwn5:
                        file_name = "SalesRawData.csv",mime="text/csv")
 
 st.divider()
+
 
 
 
