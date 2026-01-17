@@ -21,6 +21,15 @@ This application provides a comprehensive view of Adidas sales performance acros
 
 ---
 
+## 🛠️ Tech Stack
+
+- Python  
+- Streamlit  
+- Pandas, NumPy  
+- Plotly / Streamlit Charts  
+
+---
+
 ## 📁 Repository Contents
 
 ```
@@ -33,15 +42,6 @@ This application provides a comprehensive view of Adidas sales performance acros
 
 ---
 
-## 🛠️ Tech Stack
-
-- Python  
-- Streamlit  
-- Pandas, NumPy  
-- Plotly / Streamlit Charts  
-
----
-
 ## ⚙️ How to Run
 
 ### 1. Clone the Repository
@@ -49,7 +49,7 @@ This application provides a comprehensive view of Adidas sales performance acros
 git clone https://github.com/mr-prince-yadav/Adidas-Dashboard.git
 cd Adidas-Dashboard
 ```
-### 2. InstallDependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
