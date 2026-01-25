@@ -67,3 +67,8 @@ streamlit run Dashboard.py
 - Learning Streamlit dashboards
 
 ---
+
+## 📃 License
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) This project is open source and intended for educational use.
+
